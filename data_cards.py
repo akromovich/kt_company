@@ -1,0 +1,126 @@
+give_list = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+             "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+             "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+             "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+             "WU_USD", "MoneyGram_USD"]
+give_list_call = ["Bitcoin_BTS_give", "Ethereum_ETH_give", "Litecoin_LTC_give", "Dogecoin_DOGE_give",
+                  "Tether_ERC20_USDT_give", "Tether_TRC20_USDT_give", "Perfect_Money_USD_give",
+                  "Perfect_Money_EUR_give",
+                  "AdvCash_USD_give", "AdvCash_EUR_give", "AdvCash_RUB_give", "QIWI_RUB_give", "Payeer_USD_give",
+                  "Payeer_EUR_give",
+                  "Payeer_RUB_give", "Visa_USD_give", "UnionPay_CARD_CNY_give", "UZCARD_Card_UZS_give",
+                  "HUMO_Card_UZS_give",
+                  "WU_USD_give", "MoneyGram_USD_give"]
+take_list_call = ["Bitcoin_BTS_take", "Ethereum_ETH_take", "Litecoin_LTC_take", "Dogecoin_DOGE_take",
+                  "Tether_ERC20_USDT_take", "Tether_TRC20_USDT_take", "Perfect_Money_USD_take",
+                  "Perfect_Money_EUR_take",
+                  "AdvCash_USD_take", "AdvCash_EUR_take", "AdvCash_RUB_take", "QIWI_RUB_take", "Payeer_USD_take",
+                  "Payeer_EUR_take",
+                  "Payeer_RUB_take", "Visa_USD_take", "UnionPay_CARD_CNY_take", "UZCARD_Card_UZS_take",
+                  "HUMO_Card_UZS_take",
+                  "WU_USD_take", "MoneyGram_USD_take"]
+Bitcoin_BTS = ['▪️', "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+               "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+               "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+               "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+               "WU_USD", "MoneyGram_USD"]
+Ethereum_ETH = ["Bitcoin_BTS", '▪️', "Litecoin_LTC", "Dogecoin_DOGE",
+                "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                "WU_USD", "MoneyGram_USD"]
+Litecoin_LTC = ["Bitcoin_BTS", "Ethereum_ETH", '▪️', "Dogecoin_DOGE",
+                "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                "WU_USD", "MoneyGram_USD"]
+Dogecoin_DOGE = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", '▪️',
+                 "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                 "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                 "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                 "WU_USD", "MoneyGram_USD"]
+Tether_ERC20_USDT = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                     '▪️', "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                     "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                     "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                     "WU_USD", "MoneyGram_USD"]
+Tether_TRC20_USDT = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                     "Tether_ERC20_USDT", '▪️', "Perfect_Money_USD", "Perfect_Money_EUR",
+                     "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                     "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                     "WU_USD", "MoneyGram_USD"]
+Perfect_Money_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                     "Tether_ERC20_USDT", "Tether_TRC20_USDT", '▪️', "Perfect_Money_EUR",
+                     "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                     "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                     "WU_USD", "MoneyGram_USD"]
+Perfect_Money_EUR = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                     "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", '▪️',
+                     "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                     "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                     "WU_USD", "MoneyGram_USD"]
+AdvCash_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+               "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR", '▪️',
+               "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+               "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+               "WU_USD", "MoneyGram_USD"]
+AdvCash_EUR = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+               "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+               "AdvCash_USD", '▪️', "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+               "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+               "WU_USD", "MoneyGram_USD"]
+AdvCash_RUB = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+               "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+               "AdvCash_USD", "AdvCash_EUR", '▪️', "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+               "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+               "WU_USD", "MoneyGram_USD"]
+QIWI_RUB = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+            "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+            "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", '▪️', "Payeer_USD", "Payeer_EUR",
+            "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+            "WU_USD", "MoneyGram_USD"]
+Payeer_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+              "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+              "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", '▪️', "Payeer_EUR",
+              "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+              "WU_USD", "MoneyGram_USD"]
+Payeer_EUR = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+              "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+              "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", '▪️',
+              "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+              "WU_USD", "MoneyGram_USD"]
+Payeer_RUB = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+              "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+              "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+              '▪️', "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+              "WU_USD", "MoneyGram_USD"]
+Visa_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+            "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+            "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+            "Payeer_RUB",  '▪️', "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+            "WU_USD", "MoneyGram_USD"]
+UnionPay_CARD_CNY = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                     "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                     "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                     "Payeer_RUB", "Visa_USD", '▪️', "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                     "WU_USD", "MoneyGram_USD"]
+UZCARD_Card_UZS = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                   "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                   "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                   "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY",  '▪️', "HUMO_Card_UZS",
+                   "WU_USD", "MoneyGram_USD"]
+HUMO_Card_UZS = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                 "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                 "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                 "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS",  '▪️',
+                 "WU_USD", "MoneyGram_USD"]
+WU_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+          "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+          "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+          "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",  '▪️',
+          "MoneyGram_USD"]
+MoneyGram_USD = ["Bitcoin_BTS", "Ethereum_ETH", "Litecoin_LTC", "Dogecoin_DOGE",
+                 "Tether_ERC20_USDT", "Tether_TRC20_USDT", "Perfect_Money_USD", "Perfect_Money_EUR",
+                 "AdvCash_USD", "AdvCash_EUR", "AdvCash_RUB", "QIWI_RUB", "Payeer_USD", "Payeer_EUR",
+                 "Payeer_RUB", "Visa_USD", "UnionPay_CARD_CNY", "UZCARD_Card_UZS", "HUMO_Card_UZS",
+                 "WU_USD",  '▪️']
